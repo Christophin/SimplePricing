@@ -2,4 +2,36 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          /*border: 1px dotted red;*/
+}
+
+.nav > span > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.background   {
+  background: url(../assets/background.jpg);
+  text-align: center;
+  background-position: 0% 9%;
+  padding: 8.5%;
+}
+
+.background > h1  {
+  font-size: 18pt;
+  color: white;
+}
+
+.background > img {
+  margin: none;
+  width: 100%;
+}
+
+.padding-janky  {
+  padding-top: 4%;
+  margin-bottom: 0%;
+}
+
+.padding-janky2  {
+  padding-bottom: 4%;
 }
