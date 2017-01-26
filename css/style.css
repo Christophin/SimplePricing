@@ -5,9 +5,13 @@
           /*border: 1px dotted red;*/
 }
 
-.nav > span > a {
+a {
   text-decoration: none;
   color: grey;
+}
+
+.black-text {
+  color: black;
 }
 
 .background   {
@@ -34,4 +38,35 @@
 
 .padding-janky2  {
   padding-bottom: 4%;
+}
+
+li {
+  list-style: none;
+}
+.offers  {
+  text-align: center;
+}
+.offer  {
+  display: inline-block;
+  border: 1px solid grey;
+  margin: 20px;
+}
+
+.offer li {
+  border: 1px solid grey;
+}
+
+.green-bg  {
+  color: white;
+  background: #519251;
+}
+
+.blue-bg  {
+  color: white;
+  background: #2c4985;
+}
+
+.black-bg  {
+  color: white;
+  background: #111111;
 }
