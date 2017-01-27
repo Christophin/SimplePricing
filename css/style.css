@@ -6,6 +6,41 @@
           /*border: 1px dotted red;*/
 }
 
+.font-norm  {
+  font-size: 10pt;
+  font-weight: 600;
+}
+
+.nav  {
+  padding: 5px;
+}
+
+.nav-center  {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-center  li {
+  display: inline-block;
+}
+
+.logo  {
+font-weight: bolder;
+margin-left: 10px;
+}
+
+.home  {
+  margin-left: 32px;
+}
+
+.pricing  {
+  margin-left: 25px;
+}
+
+.contact  {
+  margin-left: 25px
+}
+
 a {
   text-decoration: none;
   color: grey;
@@ -18,9 +53,19 @@ a {
 .background   {
   background: url(../assets/background.jpg);
   text-align: center;
+  max-width: 100%;
   background-position: 0% 15%;
-  padding: 8.5%;
+  padding: 6.5%;
 }
+
+/*.bg-image  {
+  height: 300px;
+}
+
+.bg-image > img  {
+
+  max-height: 100%;
+}*/
 
 .background > h1  {
   font-size: 18pt;
