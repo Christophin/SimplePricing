@@ -2,6 +2,7 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          font-family: 'Roboto', sans-serif;
           /*border: 1px dotted red;*/
 }
 
@@ -17,7 +18,7 @@ a {
 .background   {
   background: url(../assets/background.jpg);
   text-align: center;
-  background-position: 0% 9%;
+  background-position: 0% 15%;
   padding: 8.5%;
 }
 
@@ -31,12 +32,12 @@ a {
   width: 100%;
 }
 
-.padding-janky  {
+.padding-align  {
   padding-top: 4%;
   margin-bottom: 0%;
 }
 
-.padding-janky2  {
+.padding-align2  {
   padding-bottom: 4%;
 }
 
@@ -45,28 +46,90 @@ li {
 }
 .offers  {
   text-align: center;
+  font-size: 0;
 }
 .offer  {
   display: inline-block;
   border: 1px solid grey;
-  margin: 20px;
+  margin: 4%;
+  font-size: 12pt;
+}
+
+.offer ul {
+  margin: 0px;
 }
 
 .offer li {
   border: 1px solid grey;
 }
 
+.price  {
+  font-size: 72pt;
+}
+
+
 .green-bg  {
   color: white;
   background: #519251;
+  padding: 11%;
 }
 
 .blue-bg  {
   color: white;
   background: #2c4985;
+  padding: 11%;
 }
 
 .black-bg  {
   color: white;
   background: #111111;
+  padding: 11%;
+}
+
+.grey  {
+  color: grey;
+}
+
+.grey-bg  {
+  background: #f7f7f7;
+  padding: 0;
+}
+
+.grey-bg > li  {
+  padding: 3% 20px;
+}
+
+.psuedo-button  {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 3% 7%;
+  font-weight: bold;
+}
+
+.button-margin  {
+  margin: 10%;
+}
+
+.blurbs  {
+  text-align: left;
+}
+
+.blurb  {
+  display: inline-block;
+  width: 30%;
+  margin: 8%;
+}
+
+footer  {
+  background: black;
+  text-align: center;
+  padding: 15px;
+}
+footer > p {
+  color: grey;
+}
+
+footer > p > a {
+  color: white;
+  text-decoration: underline;
 }
