@@ -1,4 +1,4 @@
-W01D04 - Simple Pricing
+W01D04 - Simple Pricing (Insane Mode)
 
 - Learned how to do a mockup
 
